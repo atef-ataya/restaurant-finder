@@ -1,0 +1,15 @@
+search_restaurants:
+  description: Search for the best restaurants in {location}. Find diverse options with good ratings, different cuisine types, and various price ranges.
+  expected_output: A comprehensive list of restaurants with names, cuisine types, locations, and brief descriptions
+  agent: research_agent
+
+curate_recommendations:
+  description: Create a curated list of 5-7 restaurant recommendations from the search results. Include variety in cuisine types and price points.
+  expected_output: A well-formatted list of restaurant recommendations with reasons why each is great and practical details
+  agent: recommendation_agent
+  context: [search_restaurants]
+
+respond_to_feedback:
+  description: Respond to user feedback and adjust recommendations if needed
+  expected_output: Updated recommendations based on user input
+  agent: recommendation_agent
