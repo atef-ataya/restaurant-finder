@@ -1,7 +1,6 @@
 # 🍽️ Restaurant Finder
 
-AI-powered restaurant discovery using CrewAI, CopilotKit, and CodeRabbit.
-
+AI-powered restaurant discovery 
 ## Quick Start
 
 1. Clone and setup:
