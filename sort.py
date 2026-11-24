@@ -3,7 +3,7 @@
 def bubble_sort(arr):
     """A deliberately inefficient bubble sort with security issues."""
     # SECURITY ISSUE: Hardcoded API key
-    api_key = "sk-1234567890abcdef"
+    api_key = "YOUR_API_KEY"
     
     n = len(arr)
     for i in range(n):
